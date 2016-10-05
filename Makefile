@@ -2,7 +2,7 @@
 
 COURSE=cs131e
 ASGN=01
-COMPILER=adder 
+COMPILER=adder
 EXT=adder
 
 ######################################################
@@ -39,12 +39,11 @@ clean:
 
 distclean: clean
 	stack clean
-	rm -rf .stack-work
 
 tags:
 	hasktags -x -c lib/
 
 turnin: distclean
-	tar -zcvf ../$(ASGN)-$(COMPILER).tgz ../$(ASGN)-$(COMPILER)
+	tar -zcvf ../$(ASGN)-$(COMPILER).tgz --exclude .git --exclude .stack-work ../$(ASGN)-$(COMPILER)
 	mv ../$(ASGN)-$(COMPILER).tgz .
 	turnin -c $(COURSE) -p $(ASGN) ./$(ASGN)-$(COMPILER).tgz

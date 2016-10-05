@@ -91,10 +91,6 @@ value is.  There are several examples further down to make this concrete.
 
 Here are some examples of Adder programs:
 
-| Concrete Syntax | Abstract Syntax | Answer |
-------------------|-----------------|---------
-
-
 ### Example 1
 
 **Concrete Syntax**
@@ -103,7 +99,7 @@ Here are some examples of Adder programs:
 5               
 ```
 
-**Abstract Syntax
+**Abstract Syntax**
 
 ```haskell
 Number(5)
