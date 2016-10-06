@@ -22,7 +22,7 @@ test: clean
 	stack test
 
 bin:
-	stack build 
+	stack build
 
 tests/output/%.result: tests/output/%.run
 	$< > $@
@@ -44,6 +44,9 @@ distclean: clean
 
 tags:
 	hasktags -x -c lib/
+
+zip:
+	tar -zcvf ../$(ASGN)-$(COMPILER).tgz --exclude .git --exclude .stack-work ../$(ASGN)-$(COMPILER)
 
 turnin: distclean
 	tar -zcvf ../$(ASGN)-$(COMPILER).tgz --exclude .git --exclude .stack-work ../$(ASGN)-$(COMPILER)
