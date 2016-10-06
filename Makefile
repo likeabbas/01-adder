@@ -7,6 +7,8 @@ EXT=adder
 
 ######################################################
 
+COMPILEREXEC=stack exec -- $(COMPILER)
+
 UNAME := $(shell uname)
 ifeq ($(UNAME), Linux)
   FORMAT=aout
@@ -20,7 +22,7 @@ test: clean
 	stack test
 
 bin:
-	stack install
+	stack build 
 
 tests/output/%.result: tests/output/%.run
 	$< > $@
@@ -32,7 +34,7 @@ tests/output/%.o: tests/output/%.s
 	nasm -f $(FORMAT) -o $@ $<
 
 tests/output/%.s: tests/input/%.$(EXT)
-	$(COMPILER) $< > $@
+	$(COMPILEREXEC) $< > $@
 
 clean:
 	rm -rf tests/output/*.o tests/output/*.s tests/output/*.dSYM tests/output/*.run tests/output/*.log tests/output/*.result
