@@ -15,6 +15,11 @@ ifeq ($(UNAME), Linux)
 else
 ifeq ($(UNAME), Darwin)
   FORMAT=macho
+else
+ifeq ($(UNAME), CYGWIN_NT-10.0)
+  FORMAT=win
+  WINSTUFF=-target i686-pc-mingw32
+endif
 endif
 endif
 
@@ -28,7 +33,7 @@ tests/output/%.result: tests/output/%.run
 	$< > $@
 
 tests/output/%.run: tests/output/%.o c-bits/main.c
-	clang -g -m32 -o $@ c-bits/main.c $<
+	clang $(WINSTUFF) -g -m32 -o $@ c-bits/main.c $<
 
 tests/output/%.o: tests/output/%.s
 	nasm -f $(FORMAT) -o $@ $<
