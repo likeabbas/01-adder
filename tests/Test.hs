@@ -27,6 +27,7 @@ adderTests sc =
   , mkTest sc "adds"        File                     (Right "8")
   , mkTest sc "subs"        File                     (Right "8")
   , mkTest sc "lets"        File                     (Right "14")
+  , mkTest sc "lets-unb"    File                     (Left  "")
   ]
 
 --------------------------------------------------------------------------------
