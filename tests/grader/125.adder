@@ -1,0 +1,4 @@
+let x = let y = w
+  in add1(y)
+in add1(x)
+

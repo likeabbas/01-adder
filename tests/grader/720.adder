@@ -1,0 +1,7 @@
+let x = 10,
+    z =  let x = sub1(x) 
+         in x,
+    z = sub1(z)
+in
+    sub1(z)
+

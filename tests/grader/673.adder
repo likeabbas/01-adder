@@ -1,0 +1,5 @@
+let y = 10,
+    adv = y
+in 
+    adv
+

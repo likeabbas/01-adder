@@ -1,0 +1,7 @@
+let a = add1(sub1(sub1(0))),
+    b = add1(add1(add1(10))),
+    c = sub1(sub1(sub1(20))),
+    d = sub1(add1(add1(30)))
+in
+    add1(b)
+

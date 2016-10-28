@@ -1,0 +1,7 @@
+let s = 64 in let o = let h = let a = let r = let d = add1(sub1(add1(s)))
+                                        in sub1(sub1(sub1(add1(d))))
+                                in add1(sub1(r))
+                        in add1(sub1(add1(add1(add1(a)))))
+                in add1(add1(sub1(add1(h)))) 
+  in add1(o)
+

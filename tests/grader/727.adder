@@ -1,0 +1,7 @@
+let a = 12,
+    b = sub1(a),
+    c = sub1(b),
+    d = sub1(c),
+    e = sub1(b)
+in e
+

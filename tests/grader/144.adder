@@ -1,0 +1,9 @@
+let x = 20, 
+    z = let x = add1(add1(x)), 
+            y = add1(x),
+            f = sub1(sub1(add1(y)))
+        in 
+            f,
+    a = add1(add1(z))
+in 
+    a

@@ -1,0 +1,6 @@
+let x = 17
+  , y = let b = add1(x)
+        in add1(b)
+in
+    add1(y)
+

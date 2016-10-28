@@ -1,0 +1,9 @@
+let a = 0,
+    b = sub1(a),
+    c = sub1(sub1(b)),
+    d = let c = sub1(b),
+            e = add1(sub1(add1(c)))
+        in d,
+    e = sub1(add1(d))
+in sub1(sub1(e))
+

@@ -1,0 +1,6 @@
+let a = 10
+   ,b = let c = 6
+           ,d = sub1(a)
+        in sub1(a)
+in sub1(b)
+

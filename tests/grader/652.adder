@@ -1,0 +1,7 @@
+let a = sub1(5),
+    b = add1(a),
+    c = let d = 5 in sub1(sub1(b)),
+    d = add1(c),
+    e = add1(add1(add1(d)))
+in d
+

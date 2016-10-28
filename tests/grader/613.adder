@@ -1,0 +1,14 @@
+let a = sub1(0),
+    b = add1(a),
+    c = let d = 
+          let e = 
+            let f = add1(b)
+            in
+              add1(f)
+          in
+            add1(b)
+        in
+          add1(d)
+in
+    c
+

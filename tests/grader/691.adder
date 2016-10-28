@@ -1,0 +1,2 @@
+let x = add1(0), y = add1(sub1(x)) in sub1(sub1(y))
+

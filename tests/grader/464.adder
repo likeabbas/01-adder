@@ -1,0 +1,6 @@
+let a = sub1(add1(sub1(100)))
+	,c = let b = sub1(add1(a))
+		in 
+			sub1(add1(add1(sub1(add1(a)))))
+in 
+	sub1(add1(c))

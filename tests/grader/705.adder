@@ -1,0 +1,14 @@
+let y =
+	let a = sub1(5),
+		y = let x = sub1(3)
+			in
+				sub1(sub1(x))
+	in
+		add1(y)
+in
+	let a = sub1(y)
+	in
+		let x = add1(a)
+		in
+			sub1(sub1(a))
+

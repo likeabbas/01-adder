@@ -1,0 +1,3 @@
+let a = 2, b = sub1(a)
+in add1(sub1(add1(sub1(a))))
+

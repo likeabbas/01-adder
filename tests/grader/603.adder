@@ -1,0 +1,4 @@
+let x = sub1(2),
+	y = sub1(x)
+in 
+	sub1(add1(y))

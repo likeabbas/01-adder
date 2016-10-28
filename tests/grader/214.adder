@@ -1,0 +1,6 @@
+let x = 0
+    ,y = sub1(x)
+    ,z = let y = sub1(y) in y
+in
+    sub1(z) 
+

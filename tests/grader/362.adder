@@ -1,0 +1,2 @@
+let x = 10, z = 30 in add1(y)
+

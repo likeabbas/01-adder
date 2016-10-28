@@ -1,0 +1,11 @@
+let x = 3, y = 2, z = 1 in
+let q = let x = let y = let z = x
+			in
+    			add1(z)
+    		in
+		add1(y)
+	in
+	add1(add1(x))
+in
+add1(q)
+

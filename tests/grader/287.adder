@@ -1,0 +1,8 @@
+let a =
+   let b =
+      let c =
+         let d = 10 in sub1(d)
+      in add1(c)
+   in let e = 5 in add1(e)
+in sub1(a)
+

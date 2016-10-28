@@ -1,0 +1,10 @@
+let x = add1(4),
+    y = let x = add1(x)
+        in
+        sub1(x),
+    z = let y = sub1(y)
+        in
+        add1(y)
+    in
+add1(z)
+

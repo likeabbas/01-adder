@@ -1,0 +1,7 @@
+let a = 100,
+    b = add1(a),
+    c = sub1(b),
+    a = add1(10)
+in
+    add1(a)
+

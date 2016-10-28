@@ -1,0 +1,6 @@
+let x = let y = add1(10)
+	in
+		add1(sub1(y))
+  in
+	add1(x)
+

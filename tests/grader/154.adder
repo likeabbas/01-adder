@@ -1,0 +1,12 @@
+let x = 10,
+    z = let xa = add1(add1(x)),
+            xb = 1,
+            xb = 1,
+            xb = 1,
+            xb = 1,
+            y  = add1(xa)
+        in
+            y
+in
+    add1(z)
+

@@ -1,0 +1,10 @@
+let first
+  = let second
+    = let third = 100
+    in
+      add1(third)
+  in
+    add1(second)
+in
+  add1(first)
+

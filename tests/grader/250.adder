@@ -1,0 +1,7 @@
+let a = 10
+  , c = let b = sub1(a)
+        in sub1(b)
+
+in
+    sub1(c)
+

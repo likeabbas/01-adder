@@ -1,0 +1,13 @@
+let a = 50,
+    b = 0,
+    c = 100
+in
+    let a = b,
+        b = c,
+        c = a
+    in
+        let a = a,
+            b = b,
+            c = c
+        in add1(sub1(sub1(add1(add1(add1(sub1(sub1(sub1(c)))))))))
+

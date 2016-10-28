@@ -1,0 +1,4 @@
+let a = sub1(sub1(sub1(sub1(sub1(sub1(10)))))),
+	b = sub1(sub1(sub1(sub1(a))))
+in
+	b

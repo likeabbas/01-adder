@@ -1,0 +1,6 @@
+let x = 3
+   ,y = let x = 2 in
+     x
+   in
+y
+

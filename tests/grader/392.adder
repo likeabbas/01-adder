@@ -1,0 +1,3 @@
+let a = sub1(sub1(sub1(sub1(sub1(1010))))),
+	b = add1(sub1(sub1(sub1(sub1(a))))) 
+	in	add1(add1(add1(add1(add1(b)))))

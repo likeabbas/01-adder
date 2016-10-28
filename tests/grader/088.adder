@@ -1,0 +1,9 @@
+let a = 13,
+    b = 15,
+    c = 16,
+    d = 20,
+    e = add1(a),
+    f = add1(sub1(sub1(sub1(e))))
+in
+    21
+

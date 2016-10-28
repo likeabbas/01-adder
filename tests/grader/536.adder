@@ -1,0 +1,10 @@
+let x = 0,
+    y = 15,
+    z = let x = add1(y),
+            y = add1(x),
+            t = add1(z)
+            in
+              t
+    in
+      x
+

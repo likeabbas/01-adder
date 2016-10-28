@@ -1,0 +1,6 @@
+let x = 4,
+    y = add1(x),
+    z = add1(y)
+in
+add1(z)
+

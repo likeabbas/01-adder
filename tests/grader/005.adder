@@ -1,0 +1,6 @@
+let e = add1(add1(sub1(20))), x =
+  let t = add1(sub1(3)), r =
+    let a = 4 in add1(a)
+  in add1(t)
+in e
+

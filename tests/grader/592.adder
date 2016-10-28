@@ -1,0 +1,11 @@
+let a = 0,
+    b = let a = sub1(a),
+            b = sub1(a)
+        in sub1(add1(sub1(b))),
+    c = let c = let a = let c = b
+                        in sub1(b)
+                in a
+        in a
+in
+    b
+

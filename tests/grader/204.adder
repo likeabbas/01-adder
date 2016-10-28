@@ -1,0 +1,7 @@
+let a = 10
+  , c = let b = add1(a)
+        in
+           add1(b)
+in
+    add1(1)
+

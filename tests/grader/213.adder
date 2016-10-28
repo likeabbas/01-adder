@@ -1,0 +1,6 @@
+let a = 10
+   ,b = sub1(a)
+   ,c = let b = 15 in add1(b)
+in
+    c
+

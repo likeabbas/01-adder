@@ -1,0 +1,9 @@
+let a = 10
+   ,b = add1(a)
+   ,c = add1(b)
+   ,d = add1(c)
+   ,e = sub1(a)
+   ,f = sub1(b)
+in 
+   sub1(sub1(sub1(sub1(f))))
+

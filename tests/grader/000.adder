@@ -1,0 +1,4 @@
+let k = sub1(0), g = sub1(sub1(k)) in 
+  let b = sub1(sub1(sub1(sub1(g)))) in 
+    sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(b))))))))
+

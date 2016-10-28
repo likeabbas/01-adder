@@ -1,0 +1,6 @@
+let y = 10 in
+let x = 25 in
+let z = add1(sub1(y)) in
+let i = add1(add1(add1(x))) in
+  sub1(z)
+

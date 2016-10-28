@@ -1,0 +1,11 @@
+let x = 10,
+    z = let x = sub1(sub1(x)),
+            y = add1(x)
+        in
+            let w = add1(y),
+                v = sub1(w)
+            in
+                w
+in
+    sub1(z)
+
