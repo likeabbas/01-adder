@@ -1,2 +1,15 @@
-let x = add1(0), y = add1(sub1(x)) in sub1(sub1(y))
+let x =
+    let y = 
+        let z =
+            let v = 
+                 let a = 10 in 
+                     add1(a)
+            in 
+                 add1(v)
+        in 
+            add1(z)
+    in 
+        add1(y)
+in
+    add1(x)
 

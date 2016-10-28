@@ -1,8 +1,1 @@
-let x = 28,
-    z = let a = add1(add1(x)),
-            b = sub1(sub1(a))
-        in
-            add1(b)
-in
-    add1(z)
-
+let x = add1(add1(add1(add1(sub1(3))))) in add1(x)

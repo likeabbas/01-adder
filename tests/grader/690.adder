@@ -1,2 +1,14 @@
-let x = 10, y = add1(x), z = sub1(add1(sub1(y))) in a
+let x = let y = add1(40) 
+        in 
+           let z = y
+           in
+              sub1(z),
+    z = sub1(
+        let y = 10 
+        in 
+           add1(add1(add1((x)))))
+in
+    z
+    
+    
 

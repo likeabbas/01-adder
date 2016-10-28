@@ -1,13 +1,7 @@
-let x = 10,
-    y = 20,
-    z = let a = add1(y),
-            b = sub1(y),
-            c = let d = add1(x),
-                    e = add1(b)
-                in
-                    add1(d)
-        in
-            add1(sub1(add1(sub1(sub1(c)))))
-in
-    sub1(z)
+let a = let b = let c = let d = let e = 0
+                                in add1(a)
+	                in add1(b)
+		in add1(c)
+	in add1(d)
+in add1(e)
 

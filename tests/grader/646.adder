@@ -1,13 +1,11 @@
-let x = let z = 5,
-            x = add1(z)
-            in
-               add1(x),
-    y = let z = add1(x),
-            x = add1(z)
-            in
-              add1(x),
-    z = add1(y)
-    in
-      add1(z)
-         
+let a = 0,
+    b = let a = sub1(a),
+            b = sub1(a)
+        in sub1(add1(sub1(b))),
+    c = let c = let b = let c = b
+                        in sub1(b)
+                in b
+        in c
+in
+    b
 

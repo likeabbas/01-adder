@@ -1,6 +1,1 @@
-let a = 6
-   ,b = 8
-   ,c = sub1(a)
-in 
-    sub1(sub1(c))
-
+let l = 5, z = sub1(5), y = sub1(z) in sub1(add1(add1(y)))

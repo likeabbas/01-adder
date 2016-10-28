@@ -1,2 +1,8 @@
-let a = let b =	let c = add1(5) in add1(c) in add1(b) in add1(a)
+let x = 10, 
+    z = let x = add1(add1(x)), 
+            y = add1(x)
+        in 
+            y
+in 
+    add1(y)
 

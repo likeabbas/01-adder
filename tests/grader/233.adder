@@ -1,1 +1,2 @@
-let a = 1 in let b = 2 in let c = 3 in 5
+let y = sub1(add1(2)) in add1(add1(add1(y)))
+

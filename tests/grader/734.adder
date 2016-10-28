@@ -1,2 +1,4 @@
-let x = let y = 7 in add1(y) in k
-
+let x = 10
+  , y = add1(x)
+in
+    add1(y)

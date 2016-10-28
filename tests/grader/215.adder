@@ -1,7 +1,7 @@
-let x = 5
-    ,y = let y = 0
-             ,z = add1(y)
-             in add1(z)
+let a = sub1(12),
+    b = let c  = sub1(sub1(a))
+    in
+      sub1(c)
 in
-    add1(y) 
+    sub1(sub1(b))
 

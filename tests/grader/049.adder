@@ -1,1 +1,5 @@
-let z = 7 in add1(sub1(add1(sub1(add1(sub1(z))))))
+let x = let y = 10
+        in y
+in
+   y
+

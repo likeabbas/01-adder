@@ -1,10 +1,1 @@
-let first
-  = let second
-    = let third = 100
-    in
-      add1(third)
-  in
-    add1(second)
-in
-  add1(first)
-
+let a = 18 in sub1(sub1(sub1(a)))

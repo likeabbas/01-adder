@@ -1,13 +1,10 @@
-add1(let x = let y = 45
-             in
-               add1(let z = 6
-                    in
-                      add1(let g = add1(z)
-                           in
-                             g
-                          )
-                   )
-     in
-       sub1(x)
-    )
-
+let a = let b = let d = let e = let f = let g = let h = let i = let j = 65
+								in sub1(j)
+							in sub1(add1(i))
+						in sub1(add1(add1(h)))
+					in sub1(add1(add1(add1(g))))
+				in add1(add1(add1(add1(add1(f)))))
+			in sub1(sub1(sub1(sub1(sub1(sub1(e))))))
+		in sub1(sub1(sub1(sub1(sub1(sub1(sub1(d)))))))
+	in sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(b))))))))
+in sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(a)))))))))

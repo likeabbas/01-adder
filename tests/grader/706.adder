@@ -1,9 +1,8 @@
-let x = 3,
-    z = 2,
-    b = let x = add1(add1(z)), 
-            y = add1(x)
+let x = 12,
+    z = let b = sub1(sub1(x)),
+            y  = sub1(b)
         in
             y
 in
-   add1(b)
+    sub1(z)
 

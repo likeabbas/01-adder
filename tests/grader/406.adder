@@ -1,2 +1,8 @@
-let x = add1(f)
-in add1(x)
+let y = 5,
+  y = let y = add1(add1(y)),
+    	y = add1(y)
+      in 
+        y
+in
+  add1(y)
+

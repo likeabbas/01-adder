@@ -1,10 +1,14 @@
-let a = 
-    let b = 
-         let c = add1(5)
-         in 
-	     add1(c)
+let x = 2,
+    z = let y = sub1(let a = 5,
+    		b = let c = add1(add1(add1(a))),
+		a = sub1(11)
+    		in
+    	    	    c	
+		in 
+    	    	    add1(a)),
+	x = add1(y)
     in 
-        add1(b)
+        x
 in
-    add1(a)    
+    add1(sub1(sub1(z)))
 

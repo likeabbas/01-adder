@@ -1,1 +1,11 @@
-let f = let a = let b = let c = let d = let e = 0 in add1(e) in add1(d) in add1(c) in add1(b) in add1(a) in add1(add1(f))
+let a = 0,
+    b = let a = sub1(a),
+            b = sub1(a)
+        in sub1(add1(sub1(b))),
+    c = let c = let a = let c = b
+                        in sub1(b)
+                in a
+        in a
+in
+    b
+

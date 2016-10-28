@@ -1,2 +1,1 @@
- let x = 13 in let y = add1(x) in add1(y)
-
+let a = 5, b = sub1(a), c = add1(add1(sub1(add1(sub1(b))))) in c

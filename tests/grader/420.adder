@@ -1,4 +1,2 @@
-let x = let y = 7
-    in y
-in y
+let fourtyseven = 47 in 7
 

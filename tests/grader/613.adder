@@ -1,14 +1,9 @@
-let a = sub1(0),
-    b = add1(a),
-    c = let d = 
-          let e = 
-            let f = add1(b)
-            in
-              add1(f)
-          in
-            add1(b)
-        in
-          add1(d)
-in
-    c
+let x = 10, 
+    z = let x = add1(add1(x)), 
+            y = sub1(x)
+        in 
+            y
+in 
+    sub1(z)
+
 

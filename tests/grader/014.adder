@@ -1,5 +1,1 @@
-let x = 127,
-    y = add1(add1(add1(add1(add1(89))))),
-    z = sub1(y) in
-sub1(z)
-
+let x = 10, y = sub1(add1(123)) in y

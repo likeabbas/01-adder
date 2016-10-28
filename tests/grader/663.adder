@@ -1,2 +1,4 @@
-add1(y)
-
+let x = add1(0),
+	y = add1(x)
+in 
+	y

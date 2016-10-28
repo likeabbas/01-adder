@@ -1,1 +1,2 @@
-add1(let x = 8 in add1(x))
+let x = sub1(0) in sub1(add1(add1(x)))
+

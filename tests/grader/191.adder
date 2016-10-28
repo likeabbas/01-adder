@@ -1,13 +1,1 @@
-let a = 10,
-	b = let c = add1(a),
-			d = add1(c),
-			e = add1(d),
-			f = let g = add1(e),
-					h = add1(g),
-					i = let j = add1(h),
-							k = add1(j)
-						in 
-							add1(k)
-				in add1(i)
-		in add1(f)
-in add1(b)
+let y = 5 in let x = y in let z = add1(x) in let a = sub1(z) in a

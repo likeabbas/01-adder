@@ -1,3 +1,6 @@
-let 7 = 7
-  in 7
+let a = 10,
+    a = add1(a),
+    a = let a = 4 in add1(a),
+    a = sub1(a)
+in a
 

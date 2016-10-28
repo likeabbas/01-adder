@@ -1,2 +1,1 @@
-add1(5)
-
+let x = 10, y = let z = sub1(x) in z in y

@@ -1,4 +1,4 @@
-let x = 10
-  , y = add1(x)
-in
-    add1(y)
+let a = let b = add1(sub1(add1(sub1(0))))
+            in 5 
+    in add1(a)
+

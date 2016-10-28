@@ -1,5 +1,8 @@
-let x = 
-    let y = 7 
-    in add1(y) 
-in add1(x)
+let quack = 7 in let x = 10,
+                           z = let xa = add1(add1(x)),
+                                   y  = add1(xa)
+                                in
+                                  add1(xa)
+            in
+              sub1(sub1(add1(add1(z))))
 

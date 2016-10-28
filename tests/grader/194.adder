@@ -1,1 +1,8 @@
-let x = 11, z = let y = add1(w) in add1(y) in add1(z)
+let x = 10, 
+    z = let x = add1(add1(x)), 
+            y = add1(x)
+        in 
+            y
+in 
+    add1(y)
+

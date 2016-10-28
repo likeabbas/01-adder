@@ -1,5 +1,7 @@
-let x = let y = let z = add1(1)
-                  in add1(z)
-          in add1(y)
-in add1(x)
+let a = 10
+  , c = let b = add1(a)
+        in add1(b)
+
+in
+    add1(z)
 

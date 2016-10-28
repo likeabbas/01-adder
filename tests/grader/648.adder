@@ -1,11 +1,9 @@
-let x = 1, 
-    y = let x = add1(add1(x)), 
-            x = add1(x),
-            y = sub1(x),
-            x = add1(sub1(y)),
-            y = x
-        in
-            add1(x)
-in 
-    add1(y)
+let a = 0,
+    b = sub1(a),
+    c = sub1(sub1(b)),
+    d = let c = sub1(b),
+            e = add1(sub1(add1(c)))
+        in d,
+    e = sub1(add1(d))
+in sub1(sub1(e))
 

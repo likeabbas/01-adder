@@ -1,3 +1,7 @@
-let a = 1, b = 2, c = 3, d = 4, e = 5 in 
-   let f = 6, g = 7, h = 8, i = 9, j = 10 in sub1(d)
+let a = 100,
+    b = add1(a),
+    c = sub1(b),
+    a = add1(10)
+in
+    add1(a)
 

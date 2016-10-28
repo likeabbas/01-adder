@@ -1,4 +1,1 @@
-let g = let g = 7 
-            in sub1(add1(g)) 
-    in add1(g)
-
+let y = 1090 in x

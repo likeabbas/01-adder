@@ -1,11 +1,31 @@
-let a = 0,
-    b = let a = sub1(a),
-            b = sub1(a)
-        in sub1(add1(sub1(b))),
-    c = let c = let b = let c = b
-                        in sub1(b)
-                in b
-        in c
-in
-    c
+let x = let a = 1, 
+            b = add1(a),
+            c = add1(b),
+            d = add1(c),
+            e = add1(d),
+            f = add1(e),
+            g = add1(f),
+            h = add1(g),
+            i = add1(h),
+            j = add1(i),
+            k = add1(j),
+            l = add1(k),
+            m = add1(l),
+            n = add1(m),
+            o = add1(n),
+            p = add1(o),
+            q = add1(p),
+            r = add1(q),
+            s = add1(r),
+            t = add1(s),
+            u = add1(t),
+            v = add1(u),
+            w = add1(v),
+            x = add1(w),
+            y = add1(x),
+            z = add1(y)
+        in
+            z
+in 
+    x
 

@@ -1,8 +1,1 @@
-let a = 5,
-    b = let c = add1(add1(add1(a))),
-	a = sub1(11)
-    in
-    	a	
-in 
-    add1(b)
-
+let z = add1(3), y = sub1(z), x = add1(sub1(y)) in sub1(sub1(sub1(x)))

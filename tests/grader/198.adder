@@ -1,11 +1,1 @@
-let a = 0,
-  ab = let b = add1(add1(a)),
-         ba = let c = add1(b),
-                ca = add1(c)
-	      in
-	        ca
-       in
-         ba
-in
-  add1(ab)
-
+let z = sub1(5), y = sub1(z) in sub1(add1(add1(y)))

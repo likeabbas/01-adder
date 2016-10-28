@@ -1,1 +1,1 @@
-let x = 1, y = 2, z = sub1(add1(y)) in add1(z)
+let a = 18 in add1(add1(add1(a)))

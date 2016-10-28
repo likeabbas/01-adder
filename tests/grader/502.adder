@@ -1,1 +1,7 @@
-let z = sub1(5), y = sub1(z) in sub1(add1(add1(y)))
+let a = 1
+      in let b = add1(a)
+               in let c = add1(b)
+                        in let d = add1(c)
+                                 in let e = add1(d)
+                                          in sub1(e)
+

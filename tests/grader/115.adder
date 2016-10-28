@@ -1,7 +1,9 @@
-let a = let b = let c = let d = let e = 0
-                                in add1(a)
-	                in add1(b)
-		in add1(c)
-	in add1(d)
-in add1(e)
+let x = let x = 
+		add1(10) 
+	in
+		let x = add1(x)
+		in 
+			add1(x)
+	in
+		add1(x)
 

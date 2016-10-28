@@ -1,4 +1,1 @@
-x = 10
-in
-    x
-
+let x = 100, z = let y = add1(add1(x)) in sub1(add1(y)) in add1(z)

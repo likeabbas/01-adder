@@ -1,2 +1,4 @@
-add1(add1(add1(add1(add1(add1(add1(add1(5))))))))
+let a = 4 
+in let c = sub1(sub1(sub1(a)))
+in sub1(c)
 

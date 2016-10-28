@@ -1,6 +1,7 @@
-let x = 55
-  in
-  let y = 11
-    in
-    add1(z)
+let a = 5
+   ,b = add1(a)
+   ,c = add1(b)
+   ,d = add1(c)
+   ,e = add1(d)
+in e
 

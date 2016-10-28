@@ -1,14 +1,7 @@
-let x = 2,
-    z = let y = sub1(let a = 5,
-    		b = let c = add1(add1(add1(a))),
-		a = sub1(11)
-    		in
-    	    	    c	
-		in 
-    	    	    add1(a)),
-	x = add1(y)
-    in 
-        x
-in
-    add1(sub1(sub1(z)))
+let s = 64 in let o = let h = let a = let r = let d = add1(sub1(add1(s)))
+                                        in sub1(sub1(sub1(add1(d))))
+                                in add1(sub1(r))
+                        in add1(sub1(add1(add1(add1(a)))))
+                in add1(add1(sub1(add1(h)))) 
+  in add1(o)
 

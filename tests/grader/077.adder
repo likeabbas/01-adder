@@ -1,2 +1,2 @@
-let x = y
+add1(add1(add1(x)))
 

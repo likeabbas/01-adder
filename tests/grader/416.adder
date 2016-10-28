@@ -1,1 +1,1 @@
-let z = add1(1) in let y = add1(z) in let x = add1(y) in add1(x)
+let x = 1, z = sub1(x), y = sub1(z) in add1(add1(add1(y)))

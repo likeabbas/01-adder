@@ -1,14 +1,4 @@
-let x = let x = let x = let x = let x = let x = 4
-                                        in
-                                          add1(x)
-                                in
-                                  add1(x)
-                        in
-                          add1(x)
-                in
-                  add1(x)
-        in
-          add1(x)
-in
-  add1(x)
-
+let x = 10,
+    y = let x = 20
+        in x
+in add1(x)

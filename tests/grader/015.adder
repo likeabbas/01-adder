@@ -1,9 +1,1 @@
-let x = let x = 
-		add1(10) 
-	in
-		let x = add1(x)
-		in 
-			add1(x)
-	in
-		add1(x)
-
+let x = 10 in   add1(y)

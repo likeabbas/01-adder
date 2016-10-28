@@ -1,1 +1,6 @@
-let z = 10 in x
+let a = 42,
+	b = let d = add1(add1(add1(add1(add1(a)))))
+		in
+			sub1(sub1(sub1(sub1(sub1(d)))))
+in
+	add1(sub1(sub1(add1(b))))

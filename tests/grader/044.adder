@@ -1,3 +1,2 @@
-let unused = 10
-in add1(x)
+add1(add1(add1(5)))
 

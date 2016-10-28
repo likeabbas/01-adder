@@ -1,4 +1,5 @@
-let x = add1(0),
-	y = add1(x)
+let x = 5, 
+    y = sub1(x)
 in 
-	y
+    add1(add1(add1(y)))
+

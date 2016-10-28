@@ -1,5 +1,2 @@
-let x = 
-    let y = 7 
-    in add1(y) 
-in add1(x)
+let x = add1(add1(50)) in sub1(add1(sub1(sub1(x))))
 

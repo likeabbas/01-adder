@@ -1,2 +1,2 @@
-add1(add1(add1(18)))
+let x = 10 in sub1(x)
 

@@ -1,2 +1,2 @@
-add1(add1(add1(5)))
-
+let x = add1(f)
+in add1(x)

@@ -1,5 +1,1 @@
-let z = add1(6),
-    y = 66
-in
-    sub1(y)
-
+let z = sub1(5), y = sub1(x) in sub1(add1(add1(y)))

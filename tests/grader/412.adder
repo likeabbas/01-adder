@@ -1,8 +1,6 @@
-let y = 5,
-  y = let y = add1(add1(y)),
-    	y = add1(y)
-      in 
-        y
-in
-  add1(y)
+let a = 15,
+  b = let c = sub1(a),
+        d = add1(add1(c))
+      in d
+in sub1(sub1(b))
 

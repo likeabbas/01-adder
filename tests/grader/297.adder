@@ -1,4 +1,1 @@
-let x = 1, 
-	y = let z = 2 
-		in add1(y) 
-in y
+let z = sub1(5),     y = sub1(z),     l = 5 in   sub1(add1(add1(y)))

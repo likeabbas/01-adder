@@ -1,1 +1,10 @@
-let x = 10 in let z = let x = add1(add1(x)) in let  y = add1(x) in y in let z=x in add1(z)
+let a = 
+    let b = 
+         let c = add1(5)
+         in 
+	     add1(c)
+    in 
+        add1(b)
+in
+    add1(a)    
+

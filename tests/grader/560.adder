@@ -1,7 +1,8 @@
-let a = 5
-   ,b = add1(a)
-   ,c = add1(b)
-   ,d = add1(c)
-   ,e = add1(d)
-in e
+let x = add1(6)
+    in
+    let y = add1(x)
+        in
+        let x = add1(y)
+            in
+            add1(x)
 

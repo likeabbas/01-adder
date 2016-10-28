@@ -1,2 +1,9 @@
-x
+let a = 1,
+	c = let b = add1(a),
+			d = add1(b)
+		in
+			d
+in
+	sub1(c)
+
 

@@ -1,7 +1,11 @@
-let t = let r = let o = add1(85) in 
-                  let l = add1(o) in
-                    let o = add1(add1(sub1(l))) in 
-                      add1(sub1(sub1(o)))
-          in let l = r in sub1(l)
-  in let o = t in add1(add1(add1(add1(sub1(o)))))
+let a = 0,
+    b = let a = sub1(a),
+            b = sub1(a)
+        in sub1(add1(sub1(b))),
+    c = let c = let c = let c = b
+                        in sub1(b)
+                in c
+        in c
+in
+    c
 

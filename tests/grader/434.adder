@@ -1,9 +1,4 @@
-let x = 10, 
-    z = let x = add1(add1(x)), 
-            y = add1(x)
-        in 
-            y,
-    z = x
-in 
-    add1(z)
+let a = 10
+in
+    add1(c)
 

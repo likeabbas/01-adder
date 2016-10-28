@@ -1,8 +1,7 @@
-let x = 10, 
-    y = let x = add1(add1(x)), 
-            x = add1(x)
-        in 
-            add1(x)
-in 
-    add1(y)
+let t = let r = let o = add1(85) in 
+                  let l = add1(o) in
+                    let o = add1(add1(sub1(l))) in 
+                      add1(sub1(sub1(o)))
+          in let l = r in sub1(l)
+  in let o = t in add1(add1(add1(add1(sub1(o)))))
 

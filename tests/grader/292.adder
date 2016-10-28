@@ -1,4 +1,2 @@
-let y = add1(x),
-    x = 10 in
-y
+sub1(sub1(sub1(sub1(0))))
 

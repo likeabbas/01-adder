@@ -1,1 +1,1 @@
-let sub = sub1(sub1((0))) in sub1(sub)
+let add = add1(5) in add1(add)

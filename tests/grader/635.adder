@@ -1,1 +1,6 @@
-add1(add1(2))
+let a = 10, b = 
+	let c = sub1(a), d = sub1(c)
+	in sub1(d)
+in 
+	sub1(b)
+

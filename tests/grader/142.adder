@@ -1,7 +1,6 @@
-let a = 
-  let b =  
-    let c = 0 
-    in add1(c)
-  in c
-in 1
-
+let a = 10
+  , c = let b = add1(a)
+        in
+           add1(b)
+in
+    add1(c)

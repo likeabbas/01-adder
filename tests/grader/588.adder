@@ -1,13 +1,7 @@
-let a = 50,
-    b = 0,
-    c = 100
-in
-    let a = b,
-        b = c,
-        c = a
-    in
-        let a = a,
-            b = b,
-            c = c
-        in add1(sub1(sub1(add1(add1(add1(sub1(sub1(sub1(c)))))))))
+let a = let b = let c = let d = let e = 0
+                                in add1(e)
+                        in add1(d)
+                in add1(c)
+        in add1(b)
+in add1(a)
 

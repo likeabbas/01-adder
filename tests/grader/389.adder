@@ -1,6 +1,8 @@
-let x = 3
-   ,y = let x = 2 in
-     x
-   in
-y
+let a = 5,
+    b = let c = add1(add1(add1(a))),
+	a = sub1(11)
+    in
+    	c	
+in 
+    add1(a)
 

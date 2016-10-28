@@ -1,1 +1,6 @@
-y
+let x = 10 
+    in 
+    	let y = 23 
+in 
+    z
+

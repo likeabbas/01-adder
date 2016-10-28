@@ -1,9 +1,1 @@
-let x = 10,
-    y = add1(
-        let z = 25
-        in 
-            z
-        )
-in
-    z
-
+let x = 11, y = sub1(add1(x)) in sub1(add1(sub1(add1(y))))

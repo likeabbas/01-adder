@@ -1,10 +1,5 @@
-let x = add1(x),
-    y = let x = add1(x)
-        in
-        sub1(x),
-    z = let y = sub1(y)
-        in
-        add1(y)
-    in
-add1(z)
+let a = let b = 7
+        in b
+in
+   b
 

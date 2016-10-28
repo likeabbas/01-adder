@@ -1,12 +1,6 @@
-let x = let z = 5,
-            x = add1(z)
-            in
-               add1(x),
-    y = let z = add1(x),
-            x = add1(z)
-            in
-              add1(x),
-    z = add1(x)
-    in
-      add1(z)
-
+let a = sub1(add1(sub1(100)))
+	,c = let b = sub1(add1(a))
+		in 
+			sub1(add1(add1(sub1(add1(a)))))
+in 
+	sub1(add1(c))

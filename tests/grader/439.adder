@@ -1,1 +1,1 @@
-let x = 1 in let y = 2 in x
+let z = sub1(5), y = sub1(z) in let y = 1 in y

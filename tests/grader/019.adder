@@ -1,1 +1,1 @@
-let x = sub1(add1(sub1(add1(6)))) in x
+let a = add1(sub1(add1(sub1(96)))) in a

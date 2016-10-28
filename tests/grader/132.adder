@@ -1,2 +1,2 @@
-0
+let x = 10, y = add1(x), z = sub1(add1(sub1(y))) in a
 

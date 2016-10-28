@@ -1,1 +1,6 @@
-let x = 5 in let x = 3 in let x = sub1(add1(x)) in sub1(add1(x))
+let a = let b = let c = let d = let e = 0
+                                in add1(e)
+                        in add1(d)
+                in add1(c)
+        in add1(b)
+in add1(a)

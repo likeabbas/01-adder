@@ -1,2 +1,9 @@
-var123
+let c = let x = 5
+        in
+          add1(add1(sub1(add1(x)))),
+    y = c,
+    z = add1(add1(add1(sub1(y)))),
+    a = sub1(sub1(z))
+in
+    sub1(add1(add1(x)))
 

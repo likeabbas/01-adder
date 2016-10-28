@@ -1,1 +1,5 @@
-let a = 10 in b
+let a = 2, b =
+   let c = 3 in add1(c)
+in c 
+
+

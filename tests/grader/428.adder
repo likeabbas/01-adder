@@ -1,2 +1,2 @@
-sub1(sub1(sub1(sub1(2))))
-
+let x = x
+in x

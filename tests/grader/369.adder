@@ -1,5 +1,10 @@
-let x = 10,
-    z = let za = sub1(x)
-      in y
-in sub1(banana)
+let x = let y = sub1(add1(1)), z = let x = 13
+in
+	sub1(add1(13))
+	in
+		let q = z
+		in
+			sub1(y)
+			in
+				sub1(sub1(x))
 

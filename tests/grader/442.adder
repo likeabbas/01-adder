@@ -1,2 +1,5 @@
-add1(sub1(add1(sub1(add1(sub1(6))))))
+let x = 10,
+    z = let za = sub1(x)
+      in y
+in sub1(banana)
 

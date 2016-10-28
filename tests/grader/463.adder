@@ -1,6 +1,4 @@
-let a = sub1(sub1(sub1(10)))
-	,c = let b = sub1(a)
-		in 
-			sub1(sub1(sub1(a)))
-in 
-	sub1(c)
+let x = 11,
+	y = add1(x)
+in
+	add1(y)

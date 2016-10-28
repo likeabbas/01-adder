@@ -1,1 +1,5 @@
-x
+let x = 10
+  , y = add1(x)
+  , z = add1(y)
+in
+    add1(z)

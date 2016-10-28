@@ -1,7 +1,7 @@
-let a = 10
-  , c = let b = sub1(a)
-        in sub1(b)
-
+let a = 1,
+	b = let c = add1(a),
+			a = add1(c)
+		in 
+			add1(a)
 in
-    sub1(c)
-
+	add1(b)

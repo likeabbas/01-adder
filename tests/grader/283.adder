@@ -1,10 +1,9 @@
-let first
-  = let second
-    = let third = 100
-    in
-      add1(third)
-  in
-    add1(second)
-in
-  add1(first)
+let a = 10
+   ,b = add1(a)
+   ,c = add1(b)
+   ,d = add1(c)
+   ,e = sub1(a)
+   ,f = sub1(b)
+in 
+   sub1(sub1(sub1(sub1(f))))
 

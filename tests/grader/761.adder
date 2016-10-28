@@ -1,1 +1,13 @@
-add1(let x = 50 in x)
+let x = let y = 5,
+            z = add1(y),
+            w = add1(add1(add1(add1(y))))
+        in sub1(w),
+    frib = let y = 10,
+               z = add1(y),
+               w = add1(add1(add1(add1(y))))
+           in sub1(w),
+    frob = let y = x,
+               z = add1(y),
+               w = add1(add1(add1(add1(z))))
+           in w
+in frob

@@ -1,2 +1,4 @@
-sub1(add1(3))
+let g = let g = 7 
+            in sub1(add1(g)) 
+    in add1(g)
 

@@ -1,1 +1,22 @@
-let z = sub1(5), y = sub1(z) in let y = 1 in y
+let x =
+    let y =
+        let z =
+            let a =
+                let b =
+                    let c =
+                        let d = add1(10)
+                        in
+                        add1(d)
+                    in
+                    add1(c)
+                in
+                add1(b)
+            in
+            add1(a)
+        in
+        add1(z)
+    in
+    add1(y)
+in
+add1(x)
+

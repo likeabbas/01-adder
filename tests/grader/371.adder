@@ -1,2 +1,1 @@
-sub1(sub1(add1(add1(sub1(sub1(10))))))
-
+let y = 10, z = add1(y) in z

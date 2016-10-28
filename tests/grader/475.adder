@@ -1,4 +1,6 @@
-let x = 10,
-    y = let x = 20
-        in x
-in add1(x)
+let x = 
+    let y = 5 in 
+        add1(y)
+    in
+        y
+

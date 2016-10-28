@@ -1,6 +1,2 @@
-let x = 
-    let y = 5 in 
-        add1(y)
-    in
-        y
+sub1(sub1(sub1(sub1(0))))
 

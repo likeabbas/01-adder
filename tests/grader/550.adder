@@ -1,7 +1,1 @@
-let a = 10
-  , c = let b = add1(a)
-        in add1(b)
-
-in
-    add1(z)
-
+add1(sub1(add1(add1(sub1(add1(add1(sub1(add1(0)))))))))

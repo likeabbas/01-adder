@@ -1,8 +1,8 @@
-let x = 12,
-    z = let b = sub1(add1(sub1(x))),
-            y  = sub1(b)
-        in
-            y
-in
-    add1(sub1(z))
+let a = 5,
+    b = let c = add1(add1(add1(a))),
+	a = sub1(11)
+    in
+    	c	
+in 
+    add1(a)
 

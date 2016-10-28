@@ -1,2 +1,4 @@
-add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(add1(1322)))))))))))))))
-
+let x = let y = 10
+        in y
+in
+   y

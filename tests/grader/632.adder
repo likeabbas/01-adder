@@ -1,27 +1,8 @@
-let x = 10,
-    y = 12,
-    z = add1(x),
-    a = add1(y),
-    b = let c = 13,
-            d = let e = 12,
-                    f = 15,
-                    g = 20,
-                    h = let i = 40,
-                            j = 50,
-                            k = let l = add1(i),
-                                    m = add1(j),
-                                    n = let o = add1(l),
-                                            p = sub1(m)
-                                        in
-                                            o
-                                in
-                                    q
-                        in
-                            k
-                in
-                    h
-        in
-            c
-in
-    b
+sub1(let a = 5,
+    b = let c = add1(add1(add1(a))),
+	a = sub1(11)
+    in
+    	c	
+in 
+    add1(a))
 

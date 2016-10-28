@@ -1,3 +1,7 @@
-let x = add1(2), y = sub1(x), z = add1(x), h = sub1(sub1(z)) in sub1(sub1(h))
-
+let a = 
+  let b =  
+    let c = 0 
+    in add1(c)
+  in c
+in 1
 

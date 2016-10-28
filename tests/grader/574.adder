@@ -1,2 +1,1 @@
-let x = 7 in z
-
+let z = sub1(5), y = sub1(x) in sub1(add1(add1(y)))

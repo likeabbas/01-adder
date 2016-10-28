@@ -1,4 +1,6 @@
-let a = sub1(0)
-  , b = c
-in a
+let x = 55
+  in
+  let y = 11
+    in
+    add1(z)
 

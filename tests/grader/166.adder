@@ -1,2 +1,3 @@
-let x = add1(7), y = add1(x) in sub1(sub1(sub1(sub1(sub1(y)))))
+let a = 2, b = sub1(a)
+in add1(sub1(add1(sub1(a))))
 

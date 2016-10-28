@@ -1,1 +1,10 @@
-z
+let a = let b = let d = let e = let f = let g = let h = let i = let j = 42
+								in j
+							in i
+						in h
+					in g
+				in f
+			in e
+		in d
+	in b
+in a

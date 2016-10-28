@@ -1,1 +1,5 @@
-let z = sub1(5), y = sub1(z) in let y = 1 in y
+let y = 12,
+    a = add1(y)
+in
+  add1(a)
+

@@ -1,6 +1,1 @@
-let a = 10,
-    a = add1(a),
-    a = let a = 4 in add1(a),
-    a = sub1(a)
-in a
-
+let a = let b = let c = let d = let e = 0                                in 				  add1(e) 			in 			  add1(d)		in 		  add1(c)        in 	  add1(b)in  add1(a)

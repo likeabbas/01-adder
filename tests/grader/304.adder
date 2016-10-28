@@ -1,2 +1,1 @@
-let x = add1(7), y = add1(x) in add1(y)
-
+sub1(add1(6))

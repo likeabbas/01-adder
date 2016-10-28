@@ -1,3 +1,1 @@
-let a = 2, b = sub1(a), c = add1(b)
-in add1(add1(c))
-
+let x = let y = 10, z = 5 in z in a

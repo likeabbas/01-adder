@@ -1,2 +1,7 @@
-let a = 10, b = 9, c = add1(c) in c
+let x = add1(
+    let y = 157,
+        z = sub1(y),
+        p = sub1(sub1(sub1(y))) in
+        p) in
+        sub1(sub1(sub1(p)))
 

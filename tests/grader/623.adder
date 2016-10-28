@@ -1,1 +1,2 @@
-let x = 1 in let y = x in let z = 5 in add1(x)
+let x = let y = 7 in add1(y) in k
+

@@ -1,7 +1,2 @@
-let a = 0,
-    b = sub1(a),
-    c = sub1(b),
-    d = sub1(c)
-in
-    sub1(d)
+sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(0))))))))))
 

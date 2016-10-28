@@ -1,1 +1,7 @@
-sub1(let x = 8 in sub1(x))
+let a = 10
+  , c = let b = add1(a)
+        in
+           add1(b)
+in
+    add1(1)
+

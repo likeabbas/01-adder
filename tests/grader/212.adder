@@ -1,9 +1,14 @@
-let a = 10
-   ,b = add1(a)
-   ,c = add1(b)
-   ,d = add1(c)
-   ,e = sub1(a)
-   ,f = sub1(b)
-in 
-   sub1(sub1(sub1(sub1(f))))
+let y =
+	let a = sub1(5),
+		y = let x = sub1(3)
+			in
+				sub1(sub1(x))
+	in
+		add1(y)
+in
+	let a = sub1(y)
+	in
+		let x = add1(x)
+		in
+			sub1(sub1(a))
 

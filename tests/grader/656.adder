@@ -1,5 +1,1 @@
-let x = 10
-  , y = sub1(x)
-  , z = sub1(y)
-in
-    sub1(z)
+let y = 10, z = add1(y) in z

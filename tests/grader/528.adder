@@ -1,8 +1,6 @@
-let x = add1(6)
-    in
-    let y = add1(x)
-        in
-        let x = add1(y)
-            in
-            add1(x)
-
+let x =
+    let y =
+        let z = add1(131)
+        in add1(z)
+    in add1(y)
+in add1(x)

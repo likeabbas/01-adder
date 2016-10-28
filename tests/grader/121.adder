@@ -1,4 +1,2 @@
-let x = let y = 10
-        in y
-in
-   y
+let xyz = 1 in let x = add1(xyz) in let y = sub1(x) in let z = y in z
+

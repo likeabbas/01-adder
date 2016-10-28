@@ -1,3 +1,5 @@
-let x = 5
-in add1(z)
+let a123 = 10, 
+    a123 = 5 
+    in add1(a123)
+
 

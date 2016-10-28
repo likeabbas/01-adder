@@ -1,3 +1,6 @@
-let y = 5 in
- add1(sub1(sub1(y)))
+let a = 6
+   ,b = 8
+   ,c = sub1(a)
+in 
+    sub1(sub1(c))
 

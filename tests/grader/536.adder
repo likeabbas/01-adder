@@ -1,10 +1,6 @@
-let x = 0,
-    y = 15,
-    z = let x = add1(y),
-            y = add1(x),
-            t = add1(z)
-            in
-              t
-    in
-      x
-
+let a = sub1(sub1(sub1(10)))
+	,c = let b = sub1(a)
+		in 
+			sub1(sub1(sub1(a)))
+in 
+	sub1(c)

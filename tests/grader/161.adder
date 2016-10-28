@@ -1,9 +1,8 @@
-let x = 10, 
-    z = let x = add1(add1(x)), 
-            y = sub1(x)
-        in 
-            y
-in 
-    sub1(z)
-
+let x = add1(6)
+    in
+    let y = add1(x)
+        in
+        let x = add1(y)
+            in
+            add1(x)
 

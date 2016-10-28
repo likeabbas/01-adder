@@ -1,5 +1,9 @@
-let y = 12,
-    a = add1(y)
+let c = let x = 5
+        in
+          add1(add1(sub1(add1(x)))),
+    y = c,
+    z = add1(add1(add1(sub1(y)))),
+    a = sub1(sub1(z))
 in
-  add1(y)
+    sub1(add1(add1(a)))
 

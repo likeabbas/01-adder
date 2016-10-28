@@ -1,7 +1,8 @@
-let a = sub1(add1(sub1(add1(200))))
-  , b = a
-  , c = let d = sub1(b)
-        in d
-  , d = c
-in d
+let x = 15,
+    y = let x = 10,
+        z = add1(x)
+        in
+          z
+    in
+      add1(z)
 

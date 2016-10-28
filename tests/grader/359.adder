@@ -1,5 +1,2 @@
-let a = 10
-  , b = let c = sub1(sub1(add1(add1(add1(sub1(a))))))
-        in sub1(c)
-in b
+let a = add1(a) in add1(a)
 

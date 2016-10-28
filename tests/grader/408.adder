@@ -1,6 +1,11 @@
-let x =
-    let y =
-        let z = add1(131)
-        in add1(z)
-    in add1(y)
-in add1(x)
+let a = 0,
+  ab = let b = add1(add1(a)),
+         ba = let c = add1(b),
+                ca = add1(c)
+	      in
+	        ca
+       in
+         ba
+in
+  add1(ab)
+

@@ -1,1 +1,2 @@
-let x = x in x
+sub1(sub1(sub1(1)))
+

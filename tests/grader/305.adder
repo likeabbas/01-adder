@@ -1,2 +1,1 @@
-let x = sub1(0) in sub1(add1(add1(x)))
-
+let x = y in x

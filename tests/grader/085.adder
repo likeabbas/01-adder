@@ -1,1 +1,3 @@
-let z = sub1(5), y = sub1(z) in let y = 1 in y
+let x = 10,
+    y = add1(x) in add1(add1(y))
+

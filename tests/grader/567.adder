@@ -1,5 +1,7 @@
-let a = let b = let c = sub1(0)
-                in add1(c)
-        in add1(c)
-in a
+let x = 10,
+    z =  let x = sub1(x) 
+         in x,
+    z = sub1(z)
+in
+    sub1(z)
 

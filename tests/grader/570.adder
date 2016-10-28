@@ -1,1 +1,12 @@
-x
+let x = let z = 5,
+            x = add1(z)
+            in
+               add1(x),
+    y = let z = add1(x),
+            x = add1(z)
+            in
+              add1(x),
+    z = add1(x)
+    in
+      add1(z)
+

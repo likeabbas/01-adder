@@ -1,7 +1,5 @@
-let a = 4,
-	b = let d = sub1(sub1(sub1(sub1(sub1(a))))),
-			e = sub1(d)
-		in
-			e
+let x = let y = 10
+        in y
 in
-	add1(b)
+   f
+

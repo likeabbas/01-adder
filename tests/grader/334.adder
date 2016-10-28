@@ -1,5 +1,2 @@
-let x = 0,
-  y = add1(z)
-in
-  add1(y)
+sub1(sub1(sub1(sub1(9))))
 

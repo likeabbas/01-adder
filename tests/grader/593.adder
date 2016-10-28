@@ -1,9 +1,54 @@
-let a = 0,
-    b = sub1(a),
-    c = sub1(sub1(b)),
-    d = let c = sub1(b),
-            e = add1(sub1(add1(c)))
-        in d,
-    e = sub1(add1(d))
-in sub1(sub1(e))
-
+let x = let a =
+            let b = 
+                let c = 
+                    let d = 
+                        let e = 
+                            let f = 
+                                let g = 
+                                    let h = 
+                                        let i = 
+                                            let j = 
+                                                let k = 
+                                                    let l = 
+                                                        let m = 
+                                                            let n = 
+                                                                let o = 
+                                                                    let p = 
+                                                                        let q = 
+                                                                            let r = 
+                                                                                let s = 
+                                                                                    let t = 
+                                                                                        let u = 
+                                                                                            let v = 
+                                                                                                let w = 
+                                                                                                    let x = 
+                                                                                                        let y = 
+                                                                                                              let z = 26
+                                                                                                              in z
+                                                                                                        in y
+                                                                                                    in x
+                                                                                                in w
+                                                                                            in v
+                                                                                        in u
+                                                                                    in t
+                                                                                in s
+                                                                            in r
+                                                                        in q
+                                                                    in p
+                                                                in o
+                                                            in n
+                                                        in m
+                                                    in l
+                                                in k
+                                            in j
+                                        in i
+                                    in h
+                                in g
+                            in f
+                        in e
+                    in d
+                in c
+            in b
+        in a
+in 
+    x

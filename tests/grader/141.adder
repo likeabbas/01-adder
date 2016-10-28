@@ -1,2 +1,8 @@
-let abc = 10 in let xyz = add1(add1(abc)), zzz = sub1(add1(add1(xyz))) in xyz
+sub1(let a = 5,
+    b = let c = add1(add1(add1(a))),
+	a = sub1(11)
+    in
+    	c	
+in 
+    add1(a))
 

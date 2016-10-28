@@ -1,4 +1,2 @@
-let a = 4 
-in let c = sub1(sub1(sub1(a)))
-in sub1(c)
+let z = sub1(5), l = 5, y = sub1(z) in sub1(add1(add1(y)))
 

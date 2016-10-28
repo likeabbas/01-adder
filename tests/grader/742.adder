@@ -1,1 +1,6 @@
-let y = 5 in let x = y in let z = add1(x) in let a = sub1(z) in a
+let x = let y = add1(10)
+	in
+		add1(sub1(y))
+  in
+	add1(x)
+

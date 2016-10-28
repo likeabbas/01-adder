@@ -1,9 +1,27 @@
-let a = 1,
-	c = let b = add1(a),
-			d = add1(b)
-		in
-			d
+let x = 10,
+    y = 12,
+    z = add1(x),
+    a = add1(y),
+    b = let c = 13,
+            d = let e = 12,
+                    f = 15,
+                    g = 20,
+                    h = let i = 40,
+                            j = 50,
+                            k = let l = add1(i),
+                                    m = add1(j),
+                                    n = let o = add1(l),
+                                            p = sub1(m)
+                                        in
+                                            o
+                                in
+                                    q
+                        in
+                            k
+                in
+                    h
+        in
+            c
 in
-	sub1(c)
-
+    b
 

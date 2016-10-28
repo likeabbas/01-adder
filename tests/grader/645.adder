@@ -1,10 +1,11 @@
-let x = 10,
-    z = let x = add1(add1(x)),
-            y = add1(x)
-        in
-            let y = sub1(add1(add1(x))),
-                z = sub1(y)
-                in x
+let a = 0,
+    b = let a = sub1(a),
+            b = sub1(a)
+        in sub1(add1(sub1(b))),
+    c = let c = let b = let c = b
+                        in sub1(b)
+                in b
+        in c
 in
-    add1(x)
+    c
 

@@ -1,6 +1,5 @@
-let x = 0
-    ,y = sub1(x)
-    ,z = let y = sub1(y) in y
+let z = add1(6),
+    y = 66
 in
-    sub1(z) 
+    sub1(y)
 

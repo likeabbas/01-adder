@@ -1,1 +1,8 @@
-let x = add1(add1(add1(add1(sub1(3))))) in add1(x)
+let x = 10,
+    z = let x = add1(add1(x)) ,
+            y = sub1(sub1(x))
+        in
+            y
+in
+    add1(z)
+

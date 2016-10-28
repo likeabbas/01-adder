@@ -1,1 +1,1 @@
-add1(let x = 8 in add1(x))
+add1(let x = add1(4) in add1(x))

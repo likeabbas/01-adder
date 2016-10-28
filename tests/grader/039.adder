@@ -1,1 +1,1 @@
-let x = 1 in add1( let y = add1(x) in let z = y in z)
+let a = 2, b = add1(a) in let c = b in c

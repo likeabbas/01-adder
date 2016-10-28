@@ -1,2 +1,1 @@
-let xyz = 1 in let x = add1(xyz) in let y = sub1(x) in let z = y in z
-
+let x = let y = let z = 5 in add1(z) in sub1(y) in x

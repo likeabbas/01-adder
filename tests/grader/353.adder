@@ -1,1 +1,9 @@
-x
+let a = 100,
+    b = add1(a),
+    c = let x = 4,
+            a = add1(x)
+        in
+            add1(a)
+in
+    add1(a)
+

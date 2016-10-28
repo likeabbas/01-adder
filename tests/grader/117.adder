@@ -1,6 +1,15 @@
-let a = 10
-  , c = let b = add1(a)
-        in
-           add1(b)
-in
-    add1(c)
+let x = let x = let x = 0 
+		in 
+			let x = 0 
+			in 
+				let x = 0 
+				in 
+					let x = 0,
+					    y = 0,
+					    z = 0,
+					    q = 0
+					in q
+	in x
+in add1(x)
+
+

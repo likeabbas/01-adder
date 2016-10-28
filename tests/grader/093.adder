@@ -1,2 +1,7 @@
-let x = 1 in asdf
+let a = let b = let c = let d = let e = 0
+                                in add1(e)
+                        in add1(d)
+                in add1(c)
+        in add1(b)
+in add1(a)
 

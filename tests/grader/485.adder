@@ -1,1 +1,8 @@
-let x = 10, y = sub1(add1(123)) in y
+let y = 5,
+  y = let y = add1(add1(y)),
+    	y = add1(y)
+      in 
+        y
+in
+  add1(y)
+

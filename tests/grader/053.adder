@@ -1,5 +1,1 @@
-let a123 = 10, 
-    a123 = 5 
-    in add1(a123)
-
-
+let z = sub1(5), y = sub1(z) in let y = 1 in y

@@ -1,1 +1,11 @@
-let x = 5 in let x = 3 in let x = sub1(add1(x)) in sub1(add1(x))
+let x = 10,
+    y = 12,
+    z = add1(y),
+    e = sub1(x),
+    f = add1(sub1(e)),
+    z = add1(z),
+    g = add1(z),
+    h = 5
+in
+    g
+

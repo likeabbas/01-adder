@@ -1,5 +1,2 @@
-let x = let y = let z = 0
-                in add1(z)
-        in add1(y)
-in add1(x)
+add1(let a = 10, b = add1(a) in add1(b))
 

@@ -1,1 +1,5 @@
-let z = sub1(5), y = sub1(z) in let y = 1 in y
+let x = 10,
+    x = 20,
+    x = 30 in
+    x
+

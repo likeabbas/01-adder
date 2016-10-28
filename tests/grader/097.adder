@@ -1,5 +1,10 @@
-let a = 
-   let b = 10 in
-   let c = b in a
-in sub1(10)
+let a = add1(0),
+    b = add1(a),
+    c = add1(b),
+    d = add1(c),
+    e = add1(d),
+    f = add1(e),
+    g = add1(f)
+in
+    sub1(g)
 

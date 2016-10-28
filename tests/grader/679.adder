@@ -1,11 +1,1 @@
-let x = 10,
-    z = let x = sub1(sub1(x)),
-            y = add1(x)
-        in
-            let w = add1(y),
-                v = sub1(w)
-            in
-                w
-in
-    sub1(z)
-
+let x = let y = let z = 5 in sub1(z) in sub1(y) in x

@@ -1,1 +1,2 @@
-let z = add1(1) in let y = add1(z) in let x = add1(y) in add1(x)
+let x = 7 in z
+

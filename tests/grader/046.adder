@@ -1,1 +1,1 @@
-let x = sub1(add1(sub1(add1(6)))) in x
+let x = 10, z = let x = sub1(sub1(x)), y = sub1(x) in y in sub1(z)

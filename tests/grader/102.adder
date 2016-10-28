@@ -1,7 +1,7 @@
-let x = add1(
-    let y = 157,
-        z = sub1(y),
-        p = sub1(sub1(sub1(y))) in
-        p) in
-        sub1(sub1(sub1(x)))
+let a = sub1(12),
+    b = let c  = sub1(sub1(a))
+    in
+      sub1(c)
+in
+    sub1(sub1(b))
 

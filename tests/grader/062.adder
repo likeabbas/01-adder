@@ -1,1 +1,1 @@
-let p = add1(add1(sub1(sub1(add1(sub1(10)))))) in p
+let q = sub1(sub1(sub1(sub1(sub1(sub1(sub1(10))))))) in q

@@ -1,1 +1,4 @@
-let x = 5 in add1(x)
+let a = 10
+in
+    add1(c)
+

@@ -1,5 +1,8 @@
-let x = 5,
-    y = sub1(x)
+let x = 10,
+  z = let xa = add1(sub1(x)),
+        y = sub1(xa)
+      in
+        y
 in
-    add1(add1(add1(y)))
+  add1(z)
 

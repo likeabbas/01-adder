@@ -1,8 +1,2 @@
-let x = 0,
-    z = let x = sub1(sub1(x)),
-            y = add1(x)
-        in
-            y
-in
-    sub1(z)
+add1(let x = add1(4) in add1(x))
 

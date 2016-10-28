@@ -1,1 +1,6 @@
-x
+let zero = 0,
+    one = add1(zero),
+    two = add1(one)
+in
+    add1(two)
+

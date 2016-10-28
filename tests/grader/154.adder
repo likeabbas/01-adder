@@ -1,12 +1,2 @@
-let x = 10,
-    z = let xa = add1(add1(x)),
-            xb = 1,
-            xb = 1,
-            xb = 1,
-            xb = 1,
-            y  = add1(xa)
-        in
-            y
-in
-    add1(z)
+let xyz = 1 in let x = add1(xyz) in let y = sub1(x) in let z = y in z
 

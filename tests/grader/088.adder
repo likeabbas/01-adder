@@ -1,9 +1,7 @@
-let a = 13,
-    b = 15,
-    c = 16,
-    d = 20,
-    e = add1(a),
-    f = add1(sub1(sub1(sub1(e))))
-in
-    21
+let a = let b = let c = let d = let e = 0
+                                in add1(e)
+                        in add1(d)
+                in add1(c)
+        in add1(b)
+in add1(a)
 

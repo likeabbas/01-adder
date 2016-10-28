@@ -1,5 +1,9 @@
-let f = 123 in
-  let a = sub1(f) in
-    let i = let l = 4 in add1(l) in
-       sub1(sub1(l))
+let x = 3,
+    z = 2,
+    b = let x = add1(add1(z)), 
+            y = add1(x)
+        in
+            y
+in
+   add1(b)
 

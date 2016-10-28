@@ -1,10 +1,1 @@
-let y = sub1(25),
-    y = sub1(let y = 10 
-             in 
-                 y),
-    y = sub1(y)
-in 
-    let z = add1(y) 
-    in 
-        sub1(add1(z))  
-
+let z = sub1(5), y = sub1(z) in sub1(add1(add1(y)))

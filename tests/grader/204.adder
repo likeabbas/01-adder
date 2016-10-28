@@ -1,7 +1,9 @@
-let a = 10
-  , c = let b = add1(a)
-        in
-           add1(b)
-in
-    add1(1)
+let x = 10, 
+    z = let x = sub1(sub1(x)), 
+            y = sub1(x)
+        in 
+            y
+in 
+    sub1(z)
+
 

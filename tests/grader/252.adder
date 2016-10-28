@@ -1,1 +1,1 @@
-let a = 5, b = sub1(a), c = add1(add1(sub1(add1(sub1(b))))) in c
+let x = 11, z = let y = add1(w) in add1(y) in add1(z)

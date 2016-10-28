@@ -1,2 +1,7 @@
-let a = add1(a) in add1(a)
+let x = 5
+    ,y = let y = 0
+             ,z = add1(y)
+             in add1(z)
+in
+    add1(y) 
 

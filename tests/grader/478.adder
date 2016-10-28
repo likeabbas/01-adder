@@ -1,1 +1,2 @@
-let x = sub1(4), y = sub1(x) in let y = 1 in y
+add1(1)
+

@@ -1,8 +1,3 @@
-let a = 1,
-	b = let d = add1(sub1(add1(sub1(add1(a))))),
-			e = sub1(d)
-		in
-			e
-in
-	sub1(b)
-	
+let f = 100
+in add1(g)
+

@@ -1,8 +1,2 @@
-let a = 50,
-    b = let d = sub1(sub1(a)),
-            e  = sub1(d)
-        in
-            e
-in
-    sub1(sub1(sub1(sub1(sub1(b)))))
+sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(sub1(0))))))))))
 

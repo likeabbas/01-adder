@@ -1,5 +1,13 @@
-let y = 12,
-    a = add1(y)
-in
-  add1(a)
+add1(let x = let y = 45
+             in
+               add1(let z = 6
+                    in
+                      add1(let g = add1(z)
+                           in
+                             g
+                          )
+                   )
+     in
+       sub1(x)
+    )
 

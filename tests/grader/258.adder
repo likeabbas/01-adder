@@ -1,5 +1,2 @@
-let a = let b = 7
-        in b
-in
-   b
+add1(sub1(add1(sub1(add1(sub1(add1(sub1(add1(sub1(add1(sub1(1))))))))))))
 

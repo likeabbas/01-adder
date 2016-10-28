@@ -1,4 +1,8 @@
-let a = sub1(sub1(sub1(sub1(sub1(sub1(10)))))),
-	b = sub1(sub1(sub1(sub1(a))))
-in
-	b
+let a = 5,
+    b = let c = add1(add1(add1(a))),
+	a = sub1(11)
+    in
+    	a	
+in 
+    add1(c)
+
